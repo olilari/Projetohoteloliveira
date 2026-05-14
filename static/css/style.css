@@ -1,0 +1,28 @@
+/* =========================================================================
+🎨 STYLE.CSS
+💡 Tema visual do site "Hotel Caribe Azul"
+---------------------------------------------------------------------------
+📘 OBJETIVO:
+Este arquivo define todas as cores, tamanhos, fontes e estilos visuais
+utilizados nas páginas HTML do projeto. 
+O design é limpo, tropical e fácil de compreender por iniciantes.
+========================================================================= */
+
+/* =========================================================================
+🖼️ CAROUSEL (BANNER SUPERIOR)
+========================================================================= */
+.carousel img {
+    /* ⚙️ Altura fixa para deixar o banner uniforme */
+    height: 250px;
+
+    /* 💡 Garante que a imagem preencha o espaço sem distorcer */
+    object-fit: cover;
+}
+
+body {
+    background-color: linear-gradient(135deg, #00c2c7, #0077b6);
+
+    color: #000;
+
+    font-family: 'segoe UI', Tahoma, sans-serif;
+}
