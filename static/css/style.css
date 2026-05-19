@@ -11,7 +11,7 @@ O design é limpo, tropical e fácil de compreender por iniciantes.
 /* =========================================================================
 🖼️ CAROUSEL (BANNER SUPERIOR)
 ========================================================================= */
-.carousel img {
+carousel img {
     height: 250px;
     object-fit: cover;
 }
@@ -28,9 +28,8 @@ form {
     background-color: #ffffffcc;
     border-radius: 15px;
 }
-
 .btn-primary {
-    background-color: #0077b6;
+    background-color: #060d59dd;
 
     border-color: #005f8a;
 
@@ -44,7 +43,7 @@ form {
 
 footer {
     background-color: #000;
-    color: #fff;
+    color: #ffffff;
 }
 
 .bg-gradient {
@@ -55,4 +54,39 @@ footer {
 .navbar-brand {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #fffae6;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+.navbar {
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    opacity: 0.95;
+
+    backdrop-filter: blur(6px);
+}
+
+#snowCanvas {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
+    
+    z-index: 9999;
 }
