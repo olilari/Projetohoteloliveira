@@ -1,0 +1,85 @@
+/* =========================================================================
+🎨 STYLE.CSS
+💡 Tema visual do site "Hotel Caribe Azul"
+---------------------------------------------------------------------------
+📘 OBJETIVO:
+Este arquivo define todas as cores, tamanhos, fontes e estilos visuais
+utilizados nas páginas HTML do projeto. 
+O design é limpo, tropical e fácil de compreender por iniciantes.
+========================================================================= */
+
+/* =========================================================================
+🖼️ CAROUSEL (BANNER SUPERIOR)
+========================================================================= */
+.carousel img {
+    height: 250px;
+    object-fit: cover;
+}
+
+body {
+    background: linear-gradient(135deg, #0c0c0c, #ffecec);
+
+    color: #000;
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+form {
+    background-color: #ffffffcc;
+    border-radius: 15px;
+}
+.btn-primary {
+    background-color: #a29aff;
+    border-color:  #4358fe ;
+
+}
+
+.btn-primary:hover {
+    background-color: #8185ff ;
+
+    border-color: #ffe44b;
+}
+
+footer {
+    background-color: #38e803;
+    color: #f1eff1;
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, #0056b1, #00205d);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #fffae6 !important;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    opacity: 0.95;
+    backdrop-filter: blur(6px);
+}
+
+#snowCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+}
