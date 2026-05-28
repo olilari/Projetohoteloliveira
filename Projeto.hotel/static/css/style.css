@@ -17,7 +17,7 @@ O design é limpo, tropical e fácil de compreender por iniciantes.
 }
 
 body {
-    background: linear-gradient(135deg, #cc00ff, #99faff);
+    background: linear-gradient(135deg, #f0b4ff, #99faff);
 
     color: #000;
 
@@ -29,15 +29,15 @@ form {
     border-radius: 15px;
 }
 .btn-primary {
-    background-color: #fc6666;
+    background-color: #a2d3ff;
     border-color:  #ffffff ;
 
 }
 
 .btn-primary:hover {
-    background-color: #ff6ca7 ;
+    background-color: rgb(255, 162, 216) ;
 
-    border-color: #ffe44b;
+    border-color: #000000;
 }
 
 footer {
